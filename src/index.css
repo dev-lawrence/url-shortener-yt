@@ -269,6 +269,10 @@ h2 {
   border-color: var(--clr-neutral-100);
 }
 
+.shorten .shorten__card .shorten__link .btn.copied {
+  background-color: var(--clr-primary-500);
+}
+
 /* Error styles */
 .shorten__content .form input.error-input {
   border: 2px solid var(--clr-secondary-400);

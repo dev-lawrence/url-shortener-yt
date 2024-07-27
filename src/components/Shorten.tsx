@@ -109,7 +109,7 @@ const Shorten = () => {
                     {shortenedUrl.shortUrl}
                   </a>
                   <button
-                    className="btn"
+                    className={`btn ${copiedIndex === index ? 'copied' : ''}`}
                     datatype="wide"
                     onClick={() => handleCopy(shortenedUrl.shortUrl, index)}
                   >
